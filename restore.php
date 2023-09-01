@@ -53,8 +53,6 @@ $data = mysqli_query($conn, $fetch);
                     </td>
                     <td><a href="perdelete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><?php echo 'Delete' ?></a>
                     </td>
-                    <td><a href="table3.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><?php echo 'Restore' ?></a>
-                    </td>
                 </tr>
                 <?php
             }
